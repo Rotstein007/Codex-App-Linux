@@ -363,6 +363,9 @@ cat > package.json << 'EOF'
   }
 }
 EOF
+
+# Sync dependencies
+npm install
 ```
 
 ### Step 7.2: Install Backend CLI
